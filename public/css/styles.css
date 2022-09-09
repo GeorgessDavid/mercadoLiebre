@@ -11,6 +11,7 @@ header{
 
 main{
     background-color: #ebebeb;
+    size: 90%;
 }
 
 footer{
@@ -44,7 +45,21 @@ footer{
 
 .flexbox{
     display: flex;
-    border: 0.10vh gray;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+}
+
+.boxType{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+
+.productName{
+    margin-left: 15px;
+    color: #666;
 }
 
 .background_color {
@@ -67,12 +82,18 @@ footer{
     display: flex;
     font-size: 24px;
     justify-content: center;
+    color: #666;
+}
+
+.colored{
+    color: #39b54a;
 }
 
 .descuento{
     font-family: 'Roboto';
-    color: #22f34f;
+    color: #39b54a;
     font-size: 16px;
+    font-weight: lighter;
 }
 
 .space-around{
@@ -80,8 +101,10 @@ footer{
     justify-content: space-around;
 }
 
-.itemData{
-    margin-left: 0.25rem;
+.borderTop{
+    border-top: 1px;
+    border-color: #ebebeb;
+    border-style: solid;
 }
 
 .copyrightText{
