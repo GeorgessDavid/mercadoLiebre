@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
-    background-color: #eac926;
+    background-color: #EAC926;
     font-family: 'Roboto',sans-serif;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+main{
+    background-color: #ebebeb;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.recolorsizing{
+    color: #03264c;
 }
 
 #logo {
@@ -60,3 +84,13 @@ body {
     margin-left: 0.25rem;
 }
 
+.copyrightText{
+    font-size: 8px;
+    color: #666;
+    text-align: center;
+}
+
+.centerItems{
+    text-align: center;
+    line-height: 1rem;
+}
