@@ -1,0 +1,62 @@
+body {
+    background-color: #eac926;
+    font-family: 'Roboto',sans-serif;
+}
+
+#logo {
+    display: flex;
+    size: 20px;
+    justify-content: center;
+}
+
+.buscadorCentrado{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+.flexbox{
+    display: flex;
+    border: 0.10vh gray;
+}
+
+.background_color {
+    background-color: white;
+}
+
+.navFlex{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.negrita{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titulares{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.descuento{
+    font-family: 'Roboto';
+    color: #22f34f;
+    font-size: 16px;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemData{
+    margin-left: 0.25rem;
+}
+
