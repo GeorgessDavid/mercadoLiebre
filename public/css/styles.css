@@ -11,7 +11,7 @@ header{
 
 main{
     background-color: #ebebeb;
-    size: 90%;
+    width: 90%;
 }
 
 footer{
@@ -50,11 +50,26 @@ footer{
     border-color: #ebebeb;
 }
 
-.boxType{
+.productInfo{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+    position: relative; 
+    border-top: #ebebeb;
+    border-style: solid;
+}
 
+.camionEnvio{
+    position: absolute;
+    left: 18vw;
+    top: 2.1vh;
+}
+
+.circlePosition{
+    color:#39b54a;
+    position: absolute;
+    left: 17.65vw;
+    top: 3vh;
 }
 
 .productName{
@@ -62,9 +77,14 @@ footer{
     color: #666;
 }
 
-.background_color {
+.productBox { /*Caja de producto*/
     background-color: white;
+    border-top: #ebebeb;
+    border-style: solid;
+    color: white;
+    margin: 15px;
 }
+
 
 .navFlex{
     display:flex;
@@ -76,13 +96,15 @@ footer{
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 18px;
+    color: black;
 }
 
 .titulares{
     display: flex;
     font-size: 24px;
     justify-content: center;
-    color: #666;
+    color: black;
+    padding-top: 2vh;
 }
 
 .colored{
