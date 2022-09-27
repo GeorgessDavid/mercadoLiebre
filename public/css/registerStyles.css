@@ -248,3 +248,7 @@ footer{
 .formBox button:hover{
     background-color: #00438b;
 }
+
+.searchButton:hover{
+    color: #202020;
+}
